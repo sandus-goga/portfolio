@@ -1,0 +1,249 @@
+/* @Media *******************************  */
+
+@media screen and (min-width: 1311px) {
+	.stiky {
+		display: none;
+	}
+	h1 {
+		font-size: 9.6rem;
+	}
+	.menu {
+		width: 430px;
+	}
+	.menu__link {
+		font-size: 1rem;
+	}
+	.gif__img {
+		width: 20rem;
+	}
+	.contacts {
+		width: 19rem;
+	}
+	.contacts__icon {
+		display: none;
+	}
+}
+
+/* X-Large devices */
+@media screen and (min-width: 1200px) and (max-width: 1310.98px) {
+	.stiky {
+		display: none;
+	}
+	h1 {
+		font-size: 14.4vw;
+	}
+	.menu {
+		width: 32.7vw;
+	}
+	.menu__link {
+		font-size: .9rem;
+	}
+	.gif__img {
+		width: 30vw;
+  	}
+	  .contacts {
+		width: 28vw;
+	}
+	.contacts__icon {
+		display: none;
+	}
+}
+
+/* Large devices (desktops, less than 1200px)  */
+@media screen and (max-width: 1199.98px) {
+	.stiky {
+		display: none;
+	}
+	.wrapper__line {
+		margin: .5rem auto;
+	}
+	h1 {
+		font-size: 6.9rem;
+	}
+	.menu {
+		display: none;
+	}
+	.gif__img {
+		width: 15.3rem;
+  	}
+	.btn {
+		width: 7.5rem;
+		margin-left: -115px;
+		padding: 0.2rem;
+	}
+	.btn__contact {
+		font-size: 0.6rem;
+	}
+	.contacts {
+		width: 14rem;
+	}
+	h3,
+	.contacts__info {
+		font-size: 0.9rem;
+	}
+	.btn__contact:hover,
+	.contacts__info:hover,
+	.social-img:hover {
+		color: #D9D9D9;
+		box-shadow: none;
+	}
+	.contacts__icon {
+		display: none;
+	}
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+	.stiky {
+		display: none;
+	}
+	.header {
+		min-height: 350px;
+	}
+	h1 {
+		font-size: 5.1rem;
+	}
+	.gif {
+		top: 14.5rem;
+	}
+	.gif__img {
+		width: 16.1rem;
+	}
+	.btn {
+		top: 240px;
+	}
+	h2 {
+		font-size: 1.2rem;
+	}
+	.contacts {
+		width: 15rem;
+	}
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+	.stiky {
+		display: inline-block;
+		height: 2rem;
+		padding: .3rem;
+	}
+	.stiky__btn {
+		font-size: .6rem;
+		letter-spacing: .2rem;
+	}
+	.header {
+		min-height: 280px;
+  	}
+	.container {
+		padding: 0 .5rem 0;
+	}
+	h1 {
+		font-size: 4.3rem;
+		line-height: 0.4;
+  	}
+	.gif {
+		top: 10.7rem;
+		right: 0.5rem;
+	}
+	.gif__img {
+		width: 14rem;
+  	}
+	.btn {
+		display: none;
+		margin-left: -200px;
+	}
+	.uiux {
+		margin-top: 1.3rem;
+	}
+	h2 {
+		font-size: 1rem;
+	}
+	.gallery {
+		margin-top: 2.5rem;
+	}
+	.logobrand {
+		margin-top: 1.3rem;
+	}
+	.packaging {
+		margin-top: 1.3rem;
+	}
+	.footer {
+		margin-top: 10rem;
+	}
+	.contacts {
+		right: .5rem;
+		width: 17.2rem;
+	}
+	.social {
+		right: .5rem;
+		width: 6.5rem;
+	}
+	.social-img {
+		width: 2.2rem;
+		height: 2.2rem;
+	}
+	.skull {
+		left: .5rem;
+		width: 2.2rem;
+		height: 2.2rem;
+  }
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+	body {
+		margin: 0;
+	}
+	.wrapper__line {
+		border: none!important;
+		margin: 0 auto;
+	}
+	.header {
+		padding: .6rem 0 0;
+	}
+	h1 {
+		font-size: 4.2rem;
+		line-height: 0.7;
+		text-align: start;
+  	}
+	.gif {
+	top: 12.8rem;
+  }
+	.gif__img {
+		width: 10.5rem;
+	}
+	.gallery__img-modal {
+		width: 100%;
+	}
+	.footer {
+		min-height: 350px;
+	}
+	h3 {
+		display: none;
+	}
+	.contacts {
+		position: initial;
+		width: inherit;
+		margin-top: 4.8rem;
+	}
+	.contacts__item {
+		margin-bottom: .7rem;
+	}
+	.contacts__icon {
+		display: block;
+	}
+	h3, .contacts__info {
+		font-size: 1rem;
+  	}
+	.skull {
+		top: 13.5rem;
+	}
+	.social {
+		top: 13.5rem;
+		width: 6rem;
+	}
+}
+

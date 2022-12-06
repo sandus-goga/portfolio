@@ -1,0 +1,30 @@
+/* Evogue and Bosch page  */
+.page {
+	padding: 3rem 0;
+}
+
+.page__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.page__descr {
+	font-family: 'Space grotesk', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.page__close-img {
+	width: .9rem;
+	height: .9rem;
+
+}
+
+.page__img {
+	width: 100%;
+}
+
+
