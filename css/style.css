@@ -164,6 +164,7 @@ h1 {
 /* UI/UX */
 
 .uiux {
+	position: relative;
 	min-height: auto;
 	margin-top: 1.8rem;
 }
@@ -210,6 +211,7 @@ h2 {
 	font-weight: 700;
 	text-transform: uppercase;
 	position: absolute;
+	top: 0;
 	background-color: #101010;
 	padding-right: 1rem;
  }
