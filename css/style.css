@@ -180,10 +180,8 @@ h1 {
 
 .wrap {
 	position: relative;
-	display: flex;
-	display: -webkit-flexbox;
-	dislay: -webkit-box;
 	display: -webkit-flex;
+	display: flex;
 
 
 	justify-content: left;
@@ -213,9 +211,12 @@ h2 {
 	font-weight: 700;
 	text-transform: uppercase;
 	position: absolute;
-	top: 0;
 	background-color: #101010;
 	padding-right: 1rem;
+	
+	 flex:1; 
+    -webkit-box-flex:1; 
+    -webkit-flex:1;
  }
 
  .gallery {
