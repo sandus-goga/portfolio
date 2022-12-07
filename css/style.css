@@ -196,7 +196,7 @@ h1 {
 	padding-left: 1rem;
 }
 
-/* .wrap::before {
+.wrap::before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -204,7 +204,11 @@ h1 {
 	background-color: #D9D9D9;
 	position: absolute;
 	top: 0.6rem;
-} */
+	
+	 flex:1; 
+    -webkit-box-flex:1; 
+    -webkit-flex:1;
+}
 
 h2 {
 	font-size: 1.2rem;
