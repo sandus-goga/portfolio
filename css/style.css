@@ -180,7 +180,7 @@ h1 {
 .wrap {
 	position: relative;
 	display: flex;
-	display: -webkit-box;
+/* 	display: -webkit-box; */
 	display: -webkit-flex;
 
 
