@@ -164,6 +164,7 @@ h1 {
 /* UI/UX */
 
 .uiux {
+	position: relative;
 	min-height: auto;
 	margin-top: 1.8rem;
 }
@@ -181,6 +182,8 @@ h1 {
 	position: relative;
 	display: flex;
 	display: -webkit-flexbox;
+	dislay: -webkit-box;
+	display: -webkit-flex;
 
 
 	justify-content: left;
