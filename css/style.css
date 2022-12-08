@@ -66,7 +66,9 @@ h1, h2, h3 {
 }
 
 .stiky_hidden {
-	transform: translateY(-102%);
+	-webkit-transform: translateY(-102%);
+	    -ms-transform: translateY(-102%);
+	        transform: translateY(-102%);
  }
 
 /* Header  */
@@ -143,7 +145,9 @@ h1 {
 	padding: .3rem;
 	border-radius: 0 0 .5rem .5rem;
 	z-index: 100;
-	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
 }
 
 .btn__contact {
@@ -169,41 +173,46 @@ h1 {
 }
 
 .wrap {
-	/* Чтобы спрятать часть линий, которые
-	** будут вылазить за пределы блока */
 	overflow: hidden;
-	/* Выравнивание заголовка по центру,
-	** можно использовать left, right */
 	text-align: left;
 }
 
 .wrap-back {
-	justify-content: right;
-}
-
-.wrap-back h2 {
-	padding-right: 0;
-	padding-left: 1rem;
-}
-
-.wrap::after {
-	content: '';
-	display: inline-block;
-   vertical-align: middle;
-	width: 100%;
-	height: 1px;
-	background-color: #D9D9D9;
-	margin-right: -100%;
+	text-align: right;
 }
 
 h2 {
+	display: inline-block;
+	vertical-align: middle;
 	font-size: 1.2rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	position: absolute;
-	background-color: #101010;
-	padding-right: 1rem;
+	margin-right: 1rem;
  }
+
+.wrap-back h2 {
+	margin-right: -.2rem;
+	margin-left: 1rem;
+}
+
+.wrap::after,
+.wrap-back::before {
+	content: "";
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 1.3px;
+	background-color: #D9D9D9;
+}
+
+.wrap::after {
+	margin-right: -100%;
+}
+
+.wrap-back::before {
+	margin-left: -100%;
+}
 
  .gallery {
 	display: flex;
@@ -232,7 +241,9 @@ h2 {
  }
 
  .gallery__img:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
 	opacity: 1;
  }
 
@@ -255,7 +266,7 @@ h2 {
 .footer {
 	position: relative;
 	min-height: 290px;
-	margin-top: 12rem;
+	margin-top: 11.5rem;
 	padding: 0 0 3rem;
 }
 
