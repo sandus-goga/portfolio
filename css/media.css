@@ -63,6 +63,9 @@
 	.menu {
 		display: none;
 	}
+	.gif {
+		top: 18.4rem;
+	}
 	.gif__img {
 		width: 15.3rem;
   	}
@@ -161,7 +164,7 @@
 		font-size: 1rem;
 	}
 	.gallery {
-		margin-top: 2.5rem;
+		margin-top: 1.3rem;
 	}
 	.logobrand {
 		margin-top: 1.3rem;
@@ -227,7 +230,7 @@
 	.contacts {
 		position: initial;
 		width: inherit;
-		margin-top: 4.8rem;
+		margin-top: 3.7rem;
 	}
 	.contacts__item {
 		margin-bottom: .7rem;
